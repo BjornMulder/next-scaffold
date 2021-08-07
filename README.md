@@ -1,6 +1,6 @@
 # Next Scaffold
-[license]( https://img.shields.io/github/license/BjornMulder/next-scaffold )
-[license](https://img.shields.io/npm/v/next-scaffold)
+![license]( https://img.shields.io/github/license/BjornMulder/next-scaffold )
+![version](https://img.shields.io/npm/v/next-scaffold)
 
 ## About
 Next Scaffold is a real simple package to save you the hassle of creating file after file when working with components.
