@@ -15,11 +15,11 @@ const componentName = /[^/]*$/.exec(pathInput)[0];
 
 const path = pathInput.replace(componentName, "");
 
-const configLoc = `${appRoot}/format.json`;
+const configLoc = `${appRoot}/scaffold-format.json`;
 
 read(configLoc, "utf8", (err, buffer) => {
     if (!err) {
-        buffer.component.map((value) => {
+        buffer.components.map((value) => {
                 const fileName = componentName + value[1];
                 const componentParts = [appRoot, path, value[0]];
                 let componentPath = "";
