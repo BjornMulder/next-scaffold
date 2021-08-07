@@ -1,0 +1,22 @@
+{
+    "license": "ISC",
+    "author": "Bjorn Mulder",
+    "bin": {
+        "next-scaffold": "bin/command.js"
+    },
+    "scripts": {
+        "scaffold": "next-scaffold"
+    },
+    "description": "Simple npm utility to help you scaffold components in a next js app",
+    "version": "1.1.2",
+    "name": "next-scaffold",
+    "dependencies": {
+        "app-root-path": "^3.0.0",
+        "read-data": "^1.1.0",
+        "read-file": "^0.2.0",
+        "shelljs": "^0.8.4"
+    },
+    "devDependencies": {
+        "mocha": "^9.0.3"
+    }
+}
