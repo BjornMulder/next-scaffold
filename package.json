@@ -8,7 +8,7 @@
         "scaffold": "next-scaffold"
     },
     "description": "Simple npm utility to help you scaffold components in a next js app",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "name": "next-scaffold",
     "dependencies": {
         "app-root-path": "^3.0.0",
